@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+   background-color: aqua;
+}
+
+#cuadro {
+    border: 2px solid #000000;
+    padding: 20px;
+    max-width: 900px;
+    max-height: 700px;
+    margin-top: 150px;
+    margin-left: 250px;
+    background-color: rgba(27, 184, 121, 0.719);
+    text-align: center; 
+}
+
+#barra-comentario {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+#lista-comentarios {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+#lista-comentarios td, #lista-comentarios th {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#lista-comentarios th {
+    background-color: #f2f2f2;
+}
+
+#boton-agregar {
+    background-color: #080a09;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#boton-agregar:hover {
+    background-color: #000000a1;
+}
+
+#boton-eliminar {
+    background-color: #fe1807;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#boton-eliminar:hover {
+    background-color: #d32f2f !important; 
+}
+

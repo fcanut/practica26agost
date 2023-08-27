@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <p id="demo"></p> 
+<script src="javascript.js"></script>
+<script>
+    function displaytime(){
+        document.getElementById("demo").innerHTML = Date();
+    }
+    displaytime(); 
+</script>
+   
+    <div id="cuadro">
+        <h1>Agrega un Comentario</h1>
+    <input type="text" id="barra-comentario" placeholder="Agrega un comentario">
+    <input type="button" id="boton-agregar" value="Agregar Comentario" onclick="addComment()">
+    <p>No. de Comentarios: <span id="comment-count">0</span></p>
+    <table id="lista-comentarios">
+            <tr>
+                <th>NO.</th>
+                <th>COMENTARIOS</th>
+                <th>ACCION</th>
+            </tr>
+        </table>
+    </div>
+</div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
